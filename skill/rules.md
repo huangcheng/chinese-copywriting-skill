@@ -132,3 +132,27 @@
   - 乔布斯那句话是怎么说的?「Stay hungry,stay foolish。」
   - 推荐你阅读《Hackers&Painters:Big Ideas from the Computer Age》,非常的有趣。
 - **例外**:无。
+
+### NOUN-CASE — 专有名词使用正确大小写
+
+- **严重度**:错误
+- **类别**:名词
+- **说明**:品牌名、产品名、公司名按官方写法的大小写格式书写。
+- **正确**:
+  - 使用 GitHub 登录。
+  - 我们的客户有 GitHub、Foursquare、Microsoft Corporation、Google、Facebook, Inc.。
+- **错误**:
+  - 使用 github / GITHUB / Github / gitHub 登录。
+  - 我们的客户有 github、foursquare、microsoft corporation、google、facebook, inc.。
+  - 我们的客户有 GITHUB、FOURSQUARE、MICROSOFT CORPORATION、GOOGLE、FACEBOOK, INC.。
+  - 我们的客户有 Github、FourSquare、MicroSoft Corporation、Google、FaceBook, Inc.。
+- **例外**:网页中为整体视觉风格需要全大写/小写显示时,HTML 内容仍按官方大小写书写,通过 CSS `text-transform: uppercase;` / `text-transform: lowercase;` 控制显示。
+
+### NOUN-NO-SLANG — 不要使用不地道的缩写
+
+- **严重度**:错误
+- **类别**:名词
+- **说明**:避免使用国内特有、非业界通用的技术名词缩写(Ts、h5、RJS、FED 等)。
+- **正确**:我们需要一位熟悉 TypeScript、HTML5,至少理解一种框架(如 React、Next.js)的前端开发者。
+- **错误**:我们需要一位熟悉 Ts、h5,至少理解一种框架(如 RJS、nextjs)的 FED。
+- **例外**:无。
