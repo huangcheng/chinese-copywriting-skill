@@ -109,7 +109,9 @@
   - 嗨!你知道嘛?今天前台的小妹跟我说"喵"了哎!
   - 核磁共振成像 (NMRI) 是什么原理都不知道? JFGI!
   - 核磁共振成像(NMRI)是什么原理都不知道?JFGI!
-- **例外**:中文句子内夹有英文书籍名/报刊名时,**不使用**中文书名号《》,应以英文斜体表示(如 *Hackers & Painters*)。
+- **例外**:
+  - 中文句子内夹有英文书籍名/报刊名时,**不使用**中文书名号《》,应以英文斜体表示(如 *Hackers & Painters*)。
+  - 中文句子内嵌入完整的英文整句或英文专有名词时,该英文片段内部使用半角标点(如「Stay hungry, stay foolish.」),不视为本规则的违反 — 由 `WIDTH-EN-CONTENT` 规则管辖。
 
 ### WIDTH-NUM-HALF — 数字使用半角字符
 
@@ -146,7 +148,9 @@
   - 我们的客户有 github、foursquare、microsoft corporation、google、facebook, inc.。
   - 我们的客户有 GITHUB、FOURSQUARE、MICROSOFT CORPORATION、GOOGLE、FACEBOOK, INC.。
   - 我们的客户有 Github、FourSquare、MicroSoft Corporation、Google、FaceBook, Inc.。
-- **例外**:网页中为整体视觉风格需要全大写/小写显示时,HTML 内容仍按官方大小写书写,通过 CSS `text-transform: uppercase;` / `text-transform: lowercase;` 控制显示。
+- **例外**:
+  - 已注册品牌、产品名若官方写法本身使用非常规大小写(如 `flickr`、`tumblr`、`iPhone`、`eBay`),按官方写法保留,不强制套用「首字母大写」之类的常规规则。
+  - 网页中为整体视觉风格需要全大写/小写显示时,HTML 内容仍按官方大小写书写,通过 CSS `text-transform: uppercase;` / `text-transform: lowercase;` 控制显示。
 
 ### NOUN-NO-SLANG — 不要使用不地道的缩写
 

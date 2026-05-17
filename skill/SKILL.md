@@ -35,8 +35,8 @@ A reviewer/linter for Chinese copy. Audits text against the 中文文案排版�
 - **产品名按官方写法**:「豆瓣FM」「淘宝Live」等已注册或品牌官方写法保留(影响 `SP-CN-EN`、`NOUN-CASE`)
 - **度数/百分比与数字之间不加空格**:`90°`、`15%`(影响 `SP-NUM-UNIT`)
 - **海报/设计稿中的全角数字**:为对齐使用全角数字时不视为违反(影响 `WIDTH-NUM-HALF`)
-- **中文句子内夹英文书籍名/报刊名 → 英文斜体**,不使用中文书名号《》(影响 `WIDTH-EN-CONTENT`)
-- **完整的英文整句、英文专有名词内部使用半角标点**(`Stay hungry, stay foolish.`)(影响 `WIDTH-CN-PUNCT`)
+- **中文句子内夹英文书籍名/报刊名 → 英文斜体**,不使用中文书名号《》(影响 `WIDTH-CN-PUNCT`)
+- **完整的英文整句、英文专有名词内部使用半角标点**(`Stay hungry, stay foolish.`)(影响 `WIDTH-EN-CONTENT`)
 
 若用户在调用时明确要求忽略某条规则,用户指令同样具有优先级 — 在该次会话内生效。
 
